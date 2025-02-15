@@ -1,34 +1,23 @@
-# Sort by HashMap Value 
+# Sort HashMap by Value 
 
-A simple web application that allows users to find the value associated with a given key in a HashMap.
+Summary of the Description
+What the Project Does:
 
-## Live Demo
+It takes a HashMap (JavaScript Object) and sorts it by its values in ascending order.
+Displays both the original and sorted HashMap on the webpage.
+How the Code is Structured:
 
-Check out the live application: [HashMap Value Finder](https://hashmapvalue.ccbp.tech/)
+index.html → Contains the UI elements (buttons and text display areas).
+styles.css → Adds styling for better UI presentation.
+script.js → Handles sorting logic using JavaScript.
+How Sorting Works in JavaScript:
 
-## Features
+Converts the HashMap (object) into an array of key-value pairs.
+Uses .sort() to sort the array by values.
+Converts it back into an object and updates the webpage.
+How to Use the Project:
 
-- Users can input a key and retrieve the corresponding value from the predefined HashMap.
-- Provides a clean and simple UI for quick lookup.
-- Fast and efficient retrieval of values.
-
-## Technologies Used
-
-- **HTML** - Structure of the webpage.
-- **CSS** - Styling for a user-friendly interface.
-- **JavaScript** - Logic for retrieving values from the HashMap.
-
-- Lists the technologies used to build the project:
-HTML for the page layout.
-CSS for the design and styling.
-JavaScript for the logic that processes the user input and returns values.
-
-## How to Use
-
-1. Open the [live demo](https://hashmapvalue.ccbp.tech/).
-2. Enter a key in the input field.
-3. Click the "Find Value" button.
-4. The corresponding value will be displayed.
-
+Open the index.html file in a web browser.
+Click the "Sort HashMap" button to see the sorted result.
 
 
